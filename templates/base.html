@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Booking System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+
+    <header>
+        <h2>
+            Bus Booking System
+        </h2>
+    </header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="{{url_for('search')}}">Search Buses</a>
+    
+    <a href="{{ url_for('signin') }}">Login/Signin</a>
+    <a href="{{url_for('book')}}">Booking</a>
+</nav>
+<div class="container">
+    <img src="{{url_for('static',filename='BUS.jpeg')}}" class="image">
+    <div class="harish">
+    <h2 class="head"> Are You Looking for Book Bus Tickets Online in India?</h2>
+    <p class="para">Bus Booking is here to help!! Bus Booking have compiled all available buses to book bus tickets online in India. You can find departure and arrival times, travel duration, best ticket prices, boarding and dropping points for your selected destination journey. You will also find all information about the bus amenities which are provided by your selected operator on Bus.
+
+        If you are traveling in India from any destination,Bus booking online platform is the best choice to reserve a ticket for your journey.</p>
+    <h1 class="har">Have A Safe Journey😊</h1>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Bus Booking Website. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri,sans-serif;
+}
+header {
+    background: linear-gradient(180deg,black,lightgrey);
+    color: whitesmoke;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+nav {
+    font-size: 20px;
+    padding: 5px;
+    background-color: grey;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-left: 200px;
+}
+nav a:hover {
+    color: black;
+    background-color: lightgrey;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width:700px ;
+    margin-right: 20px;
+}
+.harish{
+    flex:0.9;
+}
+.head{
+    color: rgb(226, 50, 50);
+}
+.para{
+    font-size: 20px;
+}
+.har{
+    color: rgb(136, 136, 225);
+    padding-left: 95px;
+}
+
+footer {
+    background-color: #474646;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
